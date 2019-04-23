@@ -6,4 +6,6 @@
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
+    "emmet.triggerExpansionOnTab": true,
+    "breadcrumbs.enabled": true,
 }
