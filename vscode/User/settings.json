@@ -6,10 +6,10 @@
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
-    "emmet.triggerExpansionOnTab": true,
     "breadcrumbs.enabled": true,
     "editor.tabSize": 2,
     "ruby.lint": {
         "rubocop": true
-    }
+    },
+    "solargraph.diagnostics": true
 }
