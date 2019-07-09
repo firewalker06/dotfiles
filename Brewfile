@@ -5,6 +5,7 @@ tap 'caskroom/versions'
 tap 'caskroom/fonts'
 
 brew 'ack'
+brew 'git-standup'
 brew 'grc'
 brew 'heroku'
 brew 'hub'
