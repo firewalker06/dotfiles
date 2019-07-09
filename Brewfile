@@ -23,6 +23,7 @@ brew 'unrar'
 brew 'wget'
 brew 'yarn'
 
+cask 'alfred'
 cask 'bettertouchtool'
 cask 'caffeine'
 cask 'docker'
