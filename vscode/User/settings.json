@@ -11,5 +11,7 @@
     "ruby.lint": {
         "rubocop": true
     },
-    "solargraph.diagnostics": true
+    "solargraph.diagnostics": true,
+    "dupchecker.leaveEmptyLine": false,
+    "emmet.triggerExpansionOnTab": true
 }
