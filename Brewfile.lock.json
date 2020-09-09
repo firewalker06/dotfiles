@@ -5,7 +5,7 @@
         "revision": "811e18749d91a86ffda64f6b254f8b8e6b5754f9"
       },
       "homebrew/cask-versions": {
-        "revision": "e03139b21d27751b6e21f345d4b44bf992170fee"
+        "revision": "ac604d12ef48d1d4cde2649db62634d5db376747"
       },
       "homebrew/cask-fonts": {
         "revision": "4414bae677c4787198fa5ab49ab5d35b9f398cac"
@@ -320,6 +320,43 @@
       "yarn": {
         "version": "1.22.5",
         "bottle": false
+      },
+      "envchain": {
+        "version": "1.0.1",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/envchain-1.0.1.catalina.bottle.tar.gz",
+              "sha256": "a8658954176e96b463565ea6b5c891b3635622c550ca32efb8ee2e3baec30062"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/envchain-1.0.1.mojave.bottle.tar.gz",
+              "sha256": "3859bb68db413ee3f421351798082c456fbbb82896ef4ca2cdf439cc9d12fdbe"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/envchain-1.0.1.high_sierra.bottle.tar.gz",
+              "sha256": "0d615620e4b69e41aef92971fc1aa9a586be4f75be7813ef73ace103dd182684"
+            },
+            "sierra": {
+              "url": "https://homebrew.bintray.com/bottles/envchain-1.0.1.sierra.bottle.tar.gz",
+              "sha256": "42419c23d7dd363b9232918f69fa4ea01270b6eb4dc9c4b1c4d5170ff920fda3"
+            },
+            "el_capitan": {
+              "url": "https://homebrew.bintray.com/bottles/envchain-1.0.1.el_capitan.bottle.tar.gz",
+              "sha256": "4e34971c35ec6a716995a5e8d491970809bb5ce6c5651676f70d757b4044c834"
+            },
+            "yosemite": {
+              "url": "https://homebrew.bintray.com/bottles/envchain-1.0.1.yosemite.bottle.tar.gz",
+              "sha256": "1de7c8c17e489b1f832078d3e5c403133accd187f2e666b44bb4da5d1d74f9f7"
+            },
+            "mavericks": {
+              "url": "https://homebrew.bintray.com/bottles/envchain-1.0.1.mavericks.bottle.tar.gz",
+              "sha256": "97f5160a1a9ec028afbaf25416de61f976ef7d74031a55c0f265d158627d4afd"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -556,6 +593,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "zoomus": {
+        "version": "5.2.45131.0907",
+        "options": {
+          "full_name": "zoomus",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     }
   },
@@ -564,8 +610,8 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.5.0",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "d4a7156eeda34748f490a2a302156926e60ce05f",
-        "CLT": "12.0.0.0.1.1597368733",
+        "Homebrew/homebrew-core": "987be3a64e8e7e502d2d8c9e560b5348b35c812a",
+        "CLT": "12.0.31.1",
         "Xcode": "12.0",
         "macOS": "10.15.6"
       }
