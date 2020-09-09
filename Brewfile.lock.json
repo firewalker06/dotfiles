@@ -502,6 +502,60 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "brave-browser": {
+        "version": "85.1.13.82,113.82",
+        "options": {
+          "full_name": "brave-browser",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "firefox": {
+        "version": "80.0.1",
+        "options": {
+          "full_name": "firefox",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "kap": {
+        "version": "3.3.1",
+        "options": {
+          "full_name": "kap",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "tableplus": {
+        "version": "3.8.0,336",
+        "options": {
+          "full_name": "tableplus",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "transmit": {
+        "version": "5.6.6",
+        "options": {
+          "full_name": "transmit",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "zoom": {
+        "version": "1.1.5",
+        "options": {
+          "full_name": "zoom",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     }
   },
@@ -511,8 +565,8 @@
         "HOMEBREW_VERSION": "2.5.0",
         "HOMEBREW_PREFIX": "/usr/local",
         "Homebrew/homebrew-core": "d4a7156eeda34748f490a2a302156926e60ce05f",
-        "CLT": "11.5.0.0.1.1588476445",
-        "Xcode": "11.5",
+        "CLT": "12.0.0.0.1.1597368733",
+        "Xcode": "12.0",
         "macOS": "10.15.6"
       }
     }
