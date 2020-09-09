@@ -13,5 +13,7 @@
     },
     "solargraph.diagnostics": true,
     "dupchecker.leaveEmptyLine": false,
-    "emmet.triggerExpansionOnTab": true
+    "emmet.triggerExpansionOnTab": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false
 }
