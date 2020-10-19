@@ -15,5 +15,6 @@
     "dupchecker.leaveEmptyLine": false,
     "emmet.triggerExpansionOnTab": true,
     "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false
+    "telemetry.enableTelemetry": false,
+    "window.zoomLevel": 0
 }
