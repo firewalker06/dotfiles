@@ -7,6 +7,7 @@ tap 'heroku/brew'
 
 brew 'ack'
 brew 'envchain'
+brew 'fzf'
 brew 'git-standup'
 brew 'grc'
 brew 'heroku'
