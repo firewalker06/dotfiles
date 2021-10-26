@@ -5,13 +5,13 @@
         "revision": "6debfdc6b453b7c62bad3fba4836ec24561fac73"
       },
       "homebrew/cask-versions": {
-        "revision": "f3985c77b059db17df466235c388c7afce9fe916"
+        "revision": "a4dd16f8a6234448d4523a98d4e03f50b33a7bf0"
       },
       "homebrew/cask-fonts": {
-        "revision": "a6b5503ecab081fca3b6e084d718ec17a5446315"
+        "revision": "4f65d0605eb215621fb24d34342e54c1f5470488"
       },
       "heroku/brew": {
-        "revision": "b0f530c74bbc1b227a6b6d4ad6cb01775a9baa82"
+        "revision": "4b3ead860620693ce05806086ed1d9e94e65ef9a"
       }
     },
     "brew": {
@@ -45,7 +45,7 @@
         "bottle": false
       },
       "heroku": {
-        "version": "7.47.2",
+        "version": "7.47.3",
         "bottle": false
       },
       "hub": {
@@ -397,6 +397,31 @@
             }
           }
         }
+      },
+      "fzf": {
+        "version": "0.24.3",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "big_sur": {
+              "url": "https://homebrew.bintray.com/bottles/fzf-0.24.3.big_sur.bottle.tar.gz",
+              "sha256": "83135bde9feb6c530c56c450ed36de2972c88f0979cb46cdeb49e2ab725735bc"
+            },
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/fzf-0.24.3.catalina.bottle.tar.gz",
+              "sha256": "76bc4f0d19d68580704b4cf66a57650bcb9a18494b1c61f78770919be3a2b510"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/fzf-0.24.3.mojave.bottle.tar.gz",
+              "sha256": "23b75e0f9359bb9e69f52683fe7c847fc8a8b5e70f35fc5a68558d4d7b0e2cc3"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/fzf-0.24.3.high_sierra.bottle.tar.gz",
+              "sha256": "b5fc8fb3b2e0f24e5619697b5fb39432e193929554db370d14623cba064262fb"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -669,6 +694,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "bdash": {
+        "version": "1.8.3",
+        "options": {
+          "full_name": "bdash",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     }
   },
@@ -678,7 +712,7 @@
         "HOMEBREW_VERSION": "2.5.11",
         "HOMEBREW_PREFIX": "/usr/local",
         "Homebrew/homebrew-core": "01546167909220aecee5993095606544e9c84adc",
-        "CLT": "12.0.31.1",
+        "CLT": "12.2.0.0.1.1604628099",
         "Xcode": "12.0",
         "macOS": "10.15.7"
       }

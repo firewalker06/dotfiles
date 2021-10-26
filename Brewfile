@@ -29,6 +29,7 @@ brew 'yarn'
 
 cask 'alfred'
 cask 'appcleaner'
+cask 'bdash'
 cask 'brave-browser'
 cask 'caffeine'
 cask 'devdocs'

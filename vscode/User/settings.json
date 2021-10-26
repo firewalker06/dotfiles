@@ -16,6 +16,15 @@
     "emmet.triggerExpansionOnTab": true,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "window.zoomLevel": 0,
-    "extensions.ignoreRecommendations": false
+    "extensions.ignoreRecommendations": false,
+    "ruby.rubocop.suppressRubocopWarnings": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "ruby.rubocop.useBundler": true,
+    "editor.formatOnSave": false,
+    "yaml.maxItemsComputed": 0,
+    "redhat.telemetry.enabled": true
 }
