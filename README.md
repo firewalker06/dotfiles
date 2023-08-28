@@ -26,7 +26,12 @@ There's a few special files in the hierarchy.
 
 - **bin/**: Anything in `bin/` will get added to your `$PATH` and be made
   available everywhere.
-- **Brewfile**: This is a list of applications for [Homebrew Cask](http://caskroom.io) to install: things like Chrome and 1Password and Adium and stuff. Might want to edit this file before running any initial setup.
+- **Brewfile**: this is managed by [homebrew-bundle](https://github.com/Homebrew/homebrew-bundle). It manages:
+  - [Homebrew](https://github.com/Homebrew/brew) (on macOS or [Linux](https://docs.brew.sh/Homebrew-on-Linux)) for installing dependencies.
+  - [Homebrew Cask](https://github.com/Homebrew/homebrew-cask) for installing Mac applications.
+  - [mas-cli](https://github.com/mas-cli/mas) for installing Mac App Store applications
+  - [Whalebrew](https://github.com/whalebrew/whalebrew) for installing Whalebrew images.
+  - [Visual Studio Code](https://code.visualstudio.com/) for installing Visual Studio Code extensions.
 - **topic/\*.zsh**: Any files ending in `.zsh` get loaded into your
   environment.
 - **topic/path.zsh**: Any file named `path.zsh` is loaded first and is
@@ -59,11 +64,14 @@ defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
 
+## Apps does not appear in Brewfile?
+
+This could happened if you are installing via drag-and-drop installation. To record it as a Cask app, run `bundle install --force appname` to replace your current app with Cask.
+
 ## bugs
 
-If you're brand-new to the project and run into any blockers, please
-[open an issue](https://github.com/firewalker06/dotfiles/issues) on this repository
-and I'd love to get it fixed for you!
+Not promising to fix bugs, but if you found an issue, feel free to
+[open an issue](https://github.com/firewalker06/dotfiles/issues) on this repository!
 
 ## thanks
 
