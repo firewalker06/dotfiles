@@ -68,6 +68,10 @@ this script in `bin/`.
 
 This could happened if you are installing via drag-and-drop installation. To record it as a Cask app, run `bundle install --force appname` to replace your current app with Cask.
 
+## Dumping Brewfile
+
+Use `brew bundle dump` to generate `Brewfile` from currently things that homebrew-bundle manages. I recommend to use this occassionally to sync with currently installed apps.
+
 ## bugs
 
 Not promising to fix bugs, but if you found an issue, feel free to
