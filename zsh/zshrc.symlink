@@ -51,3 +51,5 @@ PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
 # export LDFLAGS="-L/opt/homebrew/opt/readline/lib"
 # export CPPFLAGS="-I/opt/homebrew/opt/readline/include"
 # export PKG_CONFIG_PATH="/opt/homebrew/opt/readline/lib/pkgconfig"
+
+source /Users/didik/.docker/init-zsh.sh || true # Added by Docker Desktop
