@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# Update rebase current branch from target branch
+#
+# $1 - the target branch
+#
+# Example
+#
+#   git update master
+#
+
+git checkout "$1" && git pull --prune && git checkout - && git merge "$1"

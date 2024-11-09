@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# Give diff statistics summary from HEAD
+
+git diff HEAD --stat

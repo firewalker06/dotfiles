@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+# Hard reset current branch from remote
+
+branch=$(git rev-parse --abbrev-ref HEAD)
+git pull && git reset --hard origin/$branch

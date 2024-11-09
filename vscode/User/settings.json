@@ -1,0 +1,87 @@
+{
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 18,
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Monokai",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "breadcrumbs.enabled": true,
+  "editor.tabSize": 2,
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "solargraph.diagnostics": true,
+  "dupchecker.leaveEmptyLine": false,
+  "emmet.triggerExpansionOnTab": true,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "extensions.ignoreRecommendations": false,
+  "ruby.rubocop.suppressRubocopWarnings": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "ruby.rubocop.useBundler": true,
+  "editor.formatOnSave": true,
+  "yaml.maxItemsComputed": 0,
+  "redhat.telemetry.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "vscode-yaml-sort.quotingType": "\"",
+  "vscode-yaml-sort.useLeadingDashes": false,
+  "workbench.sideBar.location": "right",
+  "discord.removeRemoteRepository": true,
+  "discord.removeDetails": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.multiCursorLimit": 20000,
+  "security.workspace.trust.untrustedFiles": "open",
+  "tailwindCSS.experimental.classRegex": [
+    "\\bclass:\\s*'([^']*)'",
+    "\\bclass:\\s*\"([^\"]*)\""
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "discord.removeLowerDetails": true,
+  "discord.swapBigAndSmallImage": true,
+  "editor.stickyScroll.enabled": true,
+  "svg.preview.mode": "svg",
+  "rubyLsp.formatter": "rubocop",
+  "rubyLsp.enabledFeatures": {
+    "codeActions": true,
+    "diagnostics": true,
+    "documentHighlights": true,
+    "documentLink": true,
+    "documentSymbols": true,
+    "foldingRanges": true,
+    "formatting": true,
+    "hover": true,
+    "inlayHint": true,
+    "onTypeFormatting": true,
+    "selectionRanges": true,
+    "semanticHighlighting": true,
+    "completion": true,
+    "codeLens": true,
+    "definition": true,
+    "workspaceSymbol": true,
+    "references": true
+  },
+  "workbench.editor.enablePreview": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "github.copilot.chat.useProjectTemplates": false,
+  "github.copilot.chat.welcomeMessage": "never",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "github.copilot.chat.inlineChatCompletionTrigger.enabled": true
+}
