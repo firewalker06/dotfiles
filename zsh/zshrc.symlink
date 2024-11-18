@@ -62,3 +62,9 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 
 # Enable zsh-autosuggestions
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Enable asdf
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+# Kubernetes 1.29
+export PATH="/opt/homebrew/opt/kubernetes-cli@1.29/bin:$PATH"

@@ -18,13 +18,13 @@
   "telemetry.enableTelemetry": false,
   "extensions.ignoreRecommendations": false,
   "ruby.rubocop.suppressRubocopWarnings": false,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "ruby.rubocop.useBundler": true,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "yaml.maxItemsComputed": 0,
   "redhat.telemetry.enabled": true,
   "editor.accessibilitySupport": "off",

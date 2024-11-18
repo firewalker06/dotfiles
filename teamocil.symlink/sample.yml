@@ -1,7 +1,0 @@
-windows:
-  - name: Sample
-    root: ~/
-    layout: even-horizontal
-    panes:
-      - echo "do something"
-      - echo "do something different"

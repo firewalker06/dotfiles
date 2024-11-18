@@ -1,18 +1,22 @@
 #!/bin/sh
-#
-# Creates something for me to do.
-#
-# I've used literally every todo list, app, program, script, everything. Even
-# the ones you are building and haven't released yet.
-#
-# I've found that they're all nice in their nice ways, but I still don't use
-# them, thus defeating the purpose of a todo list.
-#
-# All `todo` does is put a file on my Desktop with the filename given. That's
-# it. I aggressively prune my desktop of old tasks and keep one or two on there
-# at a time. Once I've finished a todo, I just delete the file. That's it.
-#
-# Millions of dollars later and `touch` wins.
 
-# Run our new web 2.0 todo list application and raise millions of VC dollars.
-touch ~/Desktop/"$*"
+# make todo directory if not exists
+
+mkdir -p ~/todo
+
+# if there is an argument, create a file with the name of the first argument on the todo directory
+
+if [ $# -gt 0 ]; then
+  # if first argument is "done" or "rm", remove the file with the name of the second argument from the todo directory
+  # if first argument is "prune", "clean" or "clear", remove all files in the todo directory
+  if [ "$1" = "done" ] || [ "$1" = "rm" ]; then
+    rm ~/todo/"$2"
+  elif [ "$1" = "prune" ] || [ "$1" = "clean" ] || [ "$1" = "clear" ]; then
+    rm ~/todo/*
+  else
+    touch ~/todo/"$*"
+  fi
+fi
+
+# list in one column, order by time modified
+ls -1t ~/todo
