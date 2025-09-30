@@ -18,13 +18,13 @@
   "telemetry.enableTelemetry": false,
   "extensions.ignoreRecommendations": false,
   "ruby.rubocop.suppressRubocopWarnings": false,
-  "editor.formatOnPaste": false,
-  "editor.formatOnType": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "ruby.rubocop.useBundler": true,
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "yaml.maxItemsComputed": 0,
   "redhat.telemetry.enabled": true,
   "editor.accessibilitySupport": "off",
@@ -48,7 +48,7 @@
   "discord.removeLowerDetails": true,
   "discord.swapBigAndSmallImage": true,
   "editor.stickyScroll.enabled": true,
-  "svg.preview.mode": "svg",
+  "svg.preview.mode": "img",
   "rubyLsp.formatter": "rubocop",
   "rubyLsp.enabledFeatures": {
     "codeActions": true,
@@ -69,7 +69,6 @@
     "workspaceSymbol": true,
     "references": true
   },
-  "workbench.editor.enablePreview": false,
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -83,5 +82,34 @@
   },
   "diffEditor.renderSideBySide": false,
   "diffEditor.ignoreTrimWhitespace": true,
-  "github.copilot.chat.inlineChatCompletionTrigger.enabled": true
+  "github.copilot.chat.inlineChatCompletionTrigger.enabled": true,
+  "rubyLsp.rubyVersionManager": {
+    "identifier": "mise"
+  },
+  "git.blame.statusBarItem.enabled": true,
+  "editor.renderWhitespace": "all",
+  "chat.editor.fontSize": 16,
+  "editor.scrollbar.horizontalScrollbarSize": 16,
+  "editor.scrollbar.verticalScrollbarSize": 16,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "rubyLsp.addonSettings": {},
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "svg.preview.autoShow": true,
+  "workbench.editor.enablePreview": false
 }

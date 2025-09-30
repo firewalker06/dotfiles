@@ -1,1 +1,1 @@
-export EDITOR='sub'
+export EDITOR='/usr/bin/vim'
