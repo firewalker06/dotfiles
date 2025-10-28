@@ -8,3 +8,5 @@ vscode/User/globalStorage/
 vscode/User/History/
 
 bin/ckpd*
+
+*_ignored.*
