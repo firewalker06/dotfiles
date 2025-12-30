@@ -46,12 +46,6 @@ PERL_LOCAL_LIB_ROOT="$HOME/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"
 PERL_MB_OPT="--install_base \"$HOME/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
 
-# export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
-# export PATH="/opt/homebrew/opt/readline/bin:$PATH"
-# export LDFLAGS="-L/opt/homebrew/opt/readline/lib"
-# export CPPFLAGS="-I/opt/homebrew/opt/readline/include"
-# export PKG_CONFIG_PATH="/opt/homebrew/opt/readline/lib/pkgconfig"
-
 source /Users/didik/.docker/init-zsh.sh || true # Added by Docker Desktop
 
 export PYENV_ROOT="$HOME/.pyenv"
@@ -71,3 +65,10 @@ export DOCKER_HOST=unix://$HOME/.orbstack/run/docker.sock
 
 # Mise
 eval "$(mise activate zsh)"
+
+# OpenSSL 3.0 because 3.6.0 is broken in Mac
+# Delete these after 3.6.0 is fixed
+export PATH="/opt/homebrew/opt/openssl@3.0/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/openssl@3.0/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/openssl@3.0/include"
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@3.0)"

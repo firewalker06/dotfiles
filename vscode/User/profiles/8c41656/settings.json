@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "workbench.colorTheme": "Monokai",
+  "workbench.colorTheme": "Tokyo Night",
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
@@ -67,6 +67,7 @@
     "workspaceSymbol": true,
     "references": true
   },
+  "rubyLsp.customRubyCommand": {},
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -116,8 +117,6 @@
   "window.zoomLevel": 3,
   "editor.fontSize": 14,
   "docker.extension.dockerEngineAvailabilityPrompt": false,
-  "chat.disableAIFeatures": true,
-  "workbench.editorAssociations": {
-    "*.svg": "default"
-  }
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "git.blame.editorDecoration.enabled": false
 }

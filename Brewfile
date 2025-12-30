@@ -1,5 +1,4 @@
 tap "buo/cask-upgrade"
-tap "errm/tools"
 tap "fluxcd/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -50,9 +49,6 @@ brew "libheif"
 brew "libraw"
 brew "imagemagick"
 brew "jq"
-brew "kubernetes-cli"
-brew "kubectx"
-brew "kubernetes-cli@1.29"
 brew "libfido2"
 brew "libmatio"
 brew "librsvg"
@@ -66,8 +62,6 @@ brew "mysql-client"
 brew "mysql@5.7"
 brew "neovim"
 brew "python@3.10"
-brew "node@14"
-brew "node@16"
 brew "openjdk@11"
 brew "openslide"
 brew "percona-toolkit", link: false
@@ -93,11 +87,8 @@ brew "youtube-dl"
 brew "yt-dlp", link: false
 brew "zellij"
 brew "zsh-autosuggestions"
-brew "errm/tools/break-glass"
-brew "fluxcd/tap/flux"
 cask "1password"
 cask "1password-cli"
-cask "alfred"
 cask "appcleaner"
 cask "arc"
 cask "audio-hijack"
@@ -133,12 +124,7 @@ cask "transmission"
 cask "transmit"
 cask "vlc"
 cask "zoom"
-mas "CapCut", id: 1500855883
-mas "Final Cut Pro", id: 424389933
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
-mas "Motion", id: 434290957
 mas "Notability", id: 736189492
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541

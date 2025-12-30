@@ -20,9 +20,9 @@ git_dirty() {
   else
     if [[ $($git status --porcelain) == "" ]]
     then
-      echo "|%{$fg_bold[green]%}$(git_prompt_info)%{$reset_color%}"
+      echo "\ue709 %{$fg_bold[green]%}$(git_prompt_info)%{$reset_color%}"
     else
-      echo "|%{$fg_bold[red]%}$(git_prompt_info)%{$reset_color%}"
+      echo "\ue709 %{$fg_bold[red]%}$(git_prompt_info)%{$reset_color%}"
     fi
   fi
 }
@@ -59,7 +59,7 @@ ruby_version() {
 rb_prompt() {
   if ! [[ -z "$(ruby_version)" ]]
   then
-    echo "%{$fg_bold[yellow]%}$(ruby_version)%{$reset_color%}"
+    echo "\uf43b %{$fg_bold[yellow]%}$(ruby_version)%{$reset_color%}"
   else
     echo ""
   fi
@@ -69,7 +69,7 @@ directory_name() {
   echo "%{$fg_bold[cyan]%}%1/%{$reset_color%}"
 }
 
-export PROMPT=$'\n$(rb_prompt)|$(directory_name)$(git_dirty)$(need_push) %{$fg_bold[green]%}🔮%{$reset_color%}\n› '
+export PROMPT=$'\n$(rb_prompt) \ueaf6 $(directory_name) $(git_dirty)$(need_push) %{$fg_bold[green]%}%{$reset_color%}\n› '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
