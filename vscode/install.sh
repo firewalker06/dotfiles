@@ -1,10 +1,9 @@
-#!/bin/sh
+rm -f "$(pwd)/vscode/settings.json"
+rm -rf "$(pwd)/vscode/profiles"
+rm -rf "$(pwd)/vscode/snippets"
 
-# Install extensions
-if code -v > /dev/null; then
-  # Symlink User folder
-  rm -rf $HOME/Library/Application\ Support/Code/User
-  ln -s $HOME/.dotfiles/vscode/User $HOME/Library/Application\ Support/Code/User
-else
-  echo 'vscode not installed'
-fi
+mkdir -p "$(pwd)/vscode"
+
+ln -s "$HOME/Library/Application Support/Code/User/settings.json" "$(pwd)/vscode/settings.json"
+ln -s "$HOME/Library/Application Support/Code/User/profiles" "$(pwd)/vscode/"
+ln -s "$HOME/Library/Application Support/Code/User/snippets" "$(pwd)/vscode/"
