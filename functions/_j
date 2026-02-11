@@ -1,0 +1,4 @@
+#compdef j
+_files -W $PROJECTS -/
+
+# See further documentation in `functions/j`.

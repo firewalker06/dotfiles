@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+# Quick shortcut to a coding agent.
+#
+# USAGE:
+#
+#   $ c
+#   # => opens claude code in the current directory without permissions
+
+if [ "$1" = "" ] ; then
+  exec claude --dangerously-skip-permissions
+else
+  exec claude --dangerously-skip-permissions "$1"
+fi
